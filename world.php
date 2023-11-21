@@ -46,9 +46,9 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <table>
         <th>
             <tr>
-                <th>name</th>
-                <th>district</th>
-                <th>population</th>
+                <th>Name</th>
+                <th>District</th>
+                <th>Population</th>
             </tr>
         </th>
             <?php foreach ($results as $row): ?>
